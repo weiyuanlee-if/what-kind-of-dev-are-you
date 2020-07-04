@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="form">
+<h1 id="title">Your Weapon of Choice?</h1>
+  <p id="description">Which engine makes you cry the most?</></p>
+  <form id="survey-form"      
+  <center><p><label for="name" id="name-label">Name:</label></center>
+<input type="text" id="name" name="name" placeholder="Enter your name" required><input type="submit" value="Submit" id="submit"></p>
+
+<p><label for="email" id="email-label">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required><input type="submit" value="Submit" id="submit"></p>
+
+
+<p><label for="number" id="number-label">How many years of game dev experience do you have </label><input type="number" id="number" name="number" min="1" max="60" placeholder="years" required><input type="submit" value="Submit" id="submit"></p>
+<p>Which is your main engine of choice? <select name="engines" id="dropdown">
+  <option value="Unity">Unity</option>
+  <option value="Rempy">Renpy</option>
+  <option value="Twine">Twine</option>
+  <option value="GameMaker Studio">GameMaker Studio</option>
+    <option value="Unreal Engine">Unreal Engine</option>
+  </select>
+</p>
+<p>Level of difficulty: <input type="radio" name="difficulty" value="1" checked="checked">1</input>
+<input type="radio" name="difficulty" value="2">2</input>
+<input type="radio" name="difficulty" value="3">3</input>
+<input type="radio" name="difficulty" value="4">4</input>
+<input type="radio" name="difficulty" value="5">5</input>
+</p>
+<p>Learning Method: <input type="checkbox" name="method" value="1" checked="checked">Video</input><input type="checkbox" name="method" value="3">Textbook</input><input type="checkbox" name="method" value="2">Manual</input>
+<p id="additionalcomments"><textarea placeholder="Further comments"></textarea></p>
+
+        </form>
+</main>
+<!-- partial -->
+  
+</body>
+</html>
