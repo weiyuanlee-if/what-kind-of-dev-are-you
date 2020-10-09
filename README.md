@@ -1,1 +1,1 @@
-# learningwebdev-surveyform
+A web project made for freecodecamp. It is a supposed to be a humourous question. You answer questions about what kind of game dev you are and you get the answer in your email. Previously it was just a survey form but it wasn't well done. It will be recreated to look more like a google forms page.
